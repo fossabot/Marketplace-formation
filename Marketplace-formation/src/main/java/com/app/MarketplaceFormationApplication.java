@@ -22,10 +22,10 @@ public class MarketplaceFormationApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 	
-		I_produits.save(new produit("ordinateurs lx 45",6700,3));
+		/*I_produits.save(new produit("ordinateurs lx 45",6700,3));
 		I_produits.save(new produit("Imprimante HP",1700,5));
 		I_produits.save(new produit("SmartPhone Samsung S9",8000,4));
-		
+		*/
 		
 	}
 

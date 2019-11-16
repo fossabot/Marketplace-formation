@@ -5,7 +5,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.app.entities.produit;
 
-@RepositoryRestResource
+
 public interface ProduitRepository extends MongoRepository<produit, String> {
 
 
