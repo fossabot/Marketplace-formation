@@ -36,25 +36,37 @@ public class ProduitImpl implements I_Produit {
 		 return p;
 	}
 
-	@Override
-	public List<produit> RechercheP(String motC) {
-		
-		return PR.findByDesignationContaining(motC);
-	}
+//	@Override
+//	public List<produit> RechercheP(String motC) {
+//		
+//		return PR.findByDesignationContaining(motC);
+//	}
 
 	@Override
 	public produit Affiche1P(String ID) {
 		return PR.findById(ID).get();
 	}
 
-	@Override
-	public Page<produit> RechercheP(String motC, Pageable P) {
-		return PR.findByDesignationContaining(motC, P);
-	}
+//	@Override
+//	public Page<produit> RechercheP(String motC, Pageable P) {
+//		return PR.findByDesignationContaining(motC, P);
+//	}
 
 	@Override
 	public List<produit> afficherP() {
 		return PR.findAll();
+	}
+
+	@Override
+	public List<produit> RechercheP(String motC) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Page<produit> RechercheP(String motC, Pageable P) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
